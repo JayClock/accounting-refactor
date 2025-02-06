@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@accounting-nest/api": ["libs/api/src/index.ts"],
+      "@accounting-nest/domain": ["libs/domain/src/index.ts"],
+      "@accounting-nest/persistent": ["libs/persistent/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
